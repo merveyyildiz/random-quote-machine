@@ -7,6 +7,23 @@
   height: 40vmin;
   pointer-events: none;
 }
+.ortala{
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ top:50%;
+ left:50%;
+ padding: 20px;
+ transform: translate(-50%,-50%);
+ width:570px;
+ height: 280px;
+ background-color:white;
+}
+.bt{
+margin-left:75%;
+  height:40px;
+  width: 120px;
+}
 
 .App-header {
   background-color: #282c34;
